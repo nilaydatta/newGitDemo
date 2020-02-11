@@ -1,0 +1,42 @@
+git init --> initialize a repository
+
+git status --> check status of git repo
+
+git add <file_name> --> add file to git repo i.e. let git register the file
+
+git commit --> commit the changes
+
+git commit -m '<commit msg>' --> one line commit with commit msg in terminal itself
+
+git add . --> add all files at once
+
+touch .gitignore --> create .gitignore file in windows so that we can edit it. gitignore file holds files which git should ignore
+
+git branch <branch_name> --> create new branch
+
+git checkout <branch_name> --> switch to new branch
+
+git checkout master --> switch to master branch
+
+git merge <branch_name> --> merge branch to master 
+
+git stash --> stash the changes
+
+git stash apply --> apply stashed changes
+
+git remote --> lists all remote repository
+
+git clone <repo_url.git> --> clone repo into local
+
+git remote -v --> lists git repo urls
+
+git fetch origin --> Pull all recent changes to local from remote
+
+git pull origin --> Pull and merge all recent changes to local from remote
+
+git commit -a -m '<commit msg>'
+
+git push origin master --> Push to remote repo
+
+git remote add <repo_name> <repo_url> --> Add other remote repositories
+

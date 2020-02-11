@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+
+.clearfix:before {
+	content: '';
+	display: table;
+	clear: both;
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+body {
+	margin: 0;
+	padding: 0.25em 0.5em;
+	font-size: 1em;
+	color: #212121;
+}
