@@ -40,3 +40,8 @@ git push origin master --> Push to remote repo
 
 git remote add <repo_name> <repo_url> --> Add other remote repositories
 
+git diff <masterbranch_path> <remotebranch_path> --> git diff master origin/master --> differnce between local and remote
+
+git fetch --all --> To update your local
+
+git branch -a --> list all branches
